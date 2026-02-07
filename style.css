@@ -9,6 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(to bottom, #9900ff, #ee0979);
 }
 
 .main .pic div{
@@ -16,17 +17,32 @@ body{
     justify-content: center;
 }
 #pis button{
-    margin: 10px;
+    margin: 15px;
     padding: 10px;
     font-size: large;
     border-radius: 15px;
-    border-width: 1px;
+    border: 0px;
+    background-color: transparent;
+    color: aliceblue;
+
 }
 #pis button:hover{
     cursor: pointer;
 }
 #img {
-    width: 400px;   /* غيّر الرقم كيما تحب */
-    height: auto;   /* يحافظ على النسبة */
+    width: 400px;   
+    height: auto; 
+    border-radius: 20px;  
 }
-
+#again{
+    margin: 15px;
+    padding: 10px;
+    font-size: large;
+    border-radius: 15px;
+    border: 0px;
+    background-color: transparent;
+    color: aliceblue;
+}
+#again:hover{
+    cursor: pointer;
+}
